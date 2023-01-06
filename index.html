@@ -8,17 +8,44 @@
     https://www.joshwcomeau.com/css/custom-css-reset/
 -->
 
+<!--
+    Clases: BEM
+    https://getbem.com/introduction/
+-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crypto Portfolio</title>
-    <link rel="stylesheet" href="./Styles/mail.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/mail.css" />
+    <!-- Fuente Inter de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <h1>Hello Worls 123</h1>
+    <header class="header">
+        <div class="header__nav">
+            <img 
+                src="./Images/logo.svg" alt="Logo for the company name Netbock and it is a circle split diagonal with orange and yellow sections and a line with a dot in the end" 
+            />
+    
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <input type="search" />
+            <a href="*/login">Log in</a>
+        </div>
+
     </header>
     <main>
         <section class="hero"></section>
@@ -27,8 +54,8 @@
         </section>
         <section class="community"></section>
         <section class="members"></section>
-        <section class=""></section>
-        <section class="blogs"></section>
+        <section class="app"></section>
+        <section class="news"></section>
     </main>
     <footer></footer>
 </body>
