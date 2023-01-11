@@ -77,7 +77,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
+}
 
+/* background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%); */
+
+.prime {
+  background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
 }
 
 .btn {
@@ -137,4 +142,10 @@ a {
 .header__search input {
   all: unset;
   width: 7.5 rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
 }
