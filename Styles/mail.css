@@ -83,6 +83,8 @@ a {
 
 .prime {
   background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+  margin: auto;
+
 }
 
 .btn {
@@ -95,6 +97,15 @@ a {
   line-height: 1;
   align-items: center;
   border-radius: 16px;
+}
+
+.btn__secondary {
+  background-color: transparent;
+
+}
+
+.btn--large {
+
 }
 
 .container {
@@ -148,4 +159,31 @@ a {
   display: flex;
   align-items: center;
   padding: 5rem 0;
+}
+
+.hero__title {
+  font-size: 0.75rem;
+  background-color: var(--color-primary-10);
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-primary);
+  padding: 0 2rem;
+  height: 2rem;
+}
+
+.hero__subtitle {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin: 1.5rem 0;
+}
+
+.hero__description {
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero__cta {
+  display: flex;
+  gap: 1rem
 }
