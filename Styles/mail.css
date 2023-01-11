@@ -98,7 +98,7 @@ a {
 }
 
 .header {
-  border-bottom: solid 1px var(--color-heading);
+  border-bottom: solid 1px var(--color-primary-10);
   padding: 1.5rem 0;
 }
 
