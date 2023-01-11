@@ -13,6 +13,18 @@
     https://getbem.com/introduction/
 -->
 
+<!-- Aprender Scoops
+Funciones, arrow functions, funciones anonimas
+For loops
+
+Promises
+fetch api-->
+
+<!--
+    Font sizes: rem always
+
+-->
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,24 +38,29 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__nav">
+        
             <img 
                 src="./Images/logo.svg" alt="Logo for the company name Netbock and it is a circle split diagonal with orange and yellow sections and a line with a dot in the end" 
+                width="145"
+                height="35"
             />
     
-            <nav>
+            <nav class="header__nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">Community</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Events</a></li>
                 </ul>
             </nav>
-        </div>
+        
+        <div class="header__actiones">
+            <form class="header__search" action="">
+                <img src="./image/ico-search.svg" alt="Maginify glass" width="16" height="16" />
+                <input type="search" aria-label="search" placeholder="Search here"/>
 
-        <div>
-            <input type="search" />
-            <a href="*/login">Log in</a>
+            </form>
+            <a href="*/login" class="btn">Log in</a>
         </div>
 
     </header>
